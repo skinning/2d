@@ -5,68 +5,70 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Kinga Kruppa">
+    <meta name="description" content="skinning">
 
-    <title>Skinning of spheres and circles</title>
+    <title>Skinning of circles</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom styles for this template -->
-    <style>
-      body {
-        padding-top: 54px;
-      }
-      @media (min-width: 992px) {
-        body {
-          padding-top: 56px;
-        }
-      }
-
-    </style>
 
   </head>
 
   <body>
+<div class="site">
+  <header class="site-header">
+    <h1 class="site-title">An improved skinning algorithm providing smooth transitions</h1>
+    <nav class="site-navigation">    <br/>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
+      <!--<ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>-->
+    </nav><!-- .site-navigation -->
+  </header><!-- .site-header -->
+
+  <main class="content-wrapper">
+    <article class="site-content">
+          <br/>    <br/>
+
+      <h2>About</h2>
         
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      <p>As an extension to our research paper, here we show a comparison between recent skinning methods, while we provide a new techinque that offers solution to their disadvantages. </p>
 
-    <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-5">Skinning of spheres and circles</h1>
-          <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
-          <ul class="list-unstyled">
-            <li>Bootstrap 4.0.0</li>
-            <li>jQuery 3.3.0</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+      <p>In the following, we compare Kunkli's [1], and Bastl's [2] skinning techinque with ours.</p>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+       <p  style="font-size: 12px">[1] R. Kunkli, M. Hoffmann, Skinning of circles and spheres, Computer Aided Geometric Design 27 (8) (2010) 611–621. 
+      <br/>doi:10.1016/j.cagd.2010.07. 003.
+      
+      <br/>
 
+      [2] B. Bastl, J. Kosinka, M. Lavicka, Simple and branched skins of systems of circles and convex shapes, Graphical Models 78 (2015) 1–9. 
+      <br/>doi:10.1016/ j.gmod.2014.12.001.
+
+      </p>
+
+      <h2>Comparing with Bastl's method</h2>
+
+      <h4>Suddenly changing tangent lengths </h4>
+
+      <p>-- video --</p>
+
+
+      <h4>Changing the positions of the touching points</h4>
+
+      <p>-- video --</p>
+
+      <h4>Touching points getting inside the circles</h4>
+
+      <p>-- video --</p>
+
+    </article><!-- .site-content -->
+  </main><!-- .content-wrapper -->
+
+   
+</div><!-- .site -->
+  
   </body>
 
 </html>
