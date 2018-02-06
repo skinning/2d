@@ -1,1 +1,1 @@
-# 2d
+# skinning methods
